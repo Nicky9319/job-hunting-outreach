@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "id": "opp_mastra",
+  "slug": "mastra",
+  "company": {
+    "name": "Mastra",
+    "website": "https://mastra.ai/",
+    "linkedin": "https://www.linkedin.com/company/mastra-ai/",
+    "location": "San Francisco, California; globally distributed",
+    "remote_india": "unknown",
+    "stage": "Series A",
+    "team_size": "32-35",
+    "funding": "$35M total"
+  },
+  "opportunity": {
+    "title": "Production AI / Platform Engineering Internship-to-Full-time",
+    "role_status": "inferred",
+    "url": "https://mastra.ai/careers",
+    "employment_type": "Internship-to-full-time proposal"
+  },
+  "evaluation": {
+    "verdict": "pursue-aggressively",
+    "company_score": 46,
+    "role_score": 37,
+    "base_score": 83,
+    "proof_advantage": 8,
+    "access_advantage": 3,
+    "outreach_priority": 94,
+    "evaluated_on": "2026-08-30",
+    "summary": "Mastra is an unusually strong match for Paarth's desired work: production agents, workflows, memory, evals, tracing, deployment, and agent reliability. The company has strong open-source traction, credible founders, enterprise usage, $35M in funding, and a globally distributed team. There is no published engineering internship or engineering vacancy, so this is a speculative internship-to-full-time proposal rather than an application to a live role.",
+    "hard_gate": "conditional",
+    "strengths": [
+      "Times Astro production conversational AI experience serving 30000+ monthly paying users",
+      "Langfuse tracing, model evaluation, feedback analysis, and large conversation-dataset experience map directly to Mastra Studio",
+      "Renderperk ownership across 11 microservices, queues, databases, CI/CD, observability, and 30+ parallel GPU workloads",
+      "Mastra's agent runtime, workflows, memory, evals, observability, server, and deployment surface directly match the target domain",
+      "Open-source contribution provides a credible proof-first path into a team that values shipping"
+    ],
+    "gaps": [
+      "Primary production stack is Python/FastAPI/LangGraph rather than TypeScript and Node.js",
+      "No meaningful Mastra contribution or production deployment yet",
+      "No published engineering internship or engineering opening currently exists",
+      "India employment or contractor eligibility is not explicitly confirmed"
+    ],
+    "unknowns": [
+      "Whether Mastra will consider an off-cycle paid intern from India",
+      "Whether a successful internship can explicitly convert to full-time",
+      "Compensation, equity, work-hour overlap, and contract structure",
+      "Which platform or observability roadmap item is suitable for an external contributor",
+      "Whether engineering hiring will reopen soon"
+    ],
+    "outreach_angle": "Do not ask generically for an internship. Lead with production agent reliability: 30000+ paying users, Langfuse/evals, tens of millions of conversations, distributed systems, and production incidents. Show a Mastra-native reliability artifact and propose a paid 8-12 week trial with explicit full-time conversion criteria.",
+    "proposed_artifact": "Build a Mastra production-reliability starter that runs a stateful tool-using agent with Postgres-backed memory, deterministic workflow replay, failure injection, trace-linked evals, cost and latency budgets, and a regression dashboard. Publish a concise benchmark and contribute one focused fix or adapter upstream after discussing an issue with maintainers."
+  },
+  "pipeline": {
+    "stage": "research-complete",
+    "outreach_status": "not-started",
+    "application_status": "not-started",
+    "next_action": "Build a small Mastra reliability artifact and open one scoped contribution discussion before sending a personalized internship-to-full-time proposal to Abhi Aiyer.",
+    "next_action_due": null,
+    "notes": "No live engineering internship was found. Do not mark outreach or application as sent until Paarth explicitly confirms it.",
+    "last_updated": "2026-08-30T00:00:00Z"
+  },
+  "contacts": [
+    {
+      "id": "contact_abhi_aiyer",
+      "name": "Abhi Aiyer",
+      "role": "Founder and CTO",
+      "priority": 1,
+      "linkedin": "https://www.linkedin.com/in/abhi-aiyer-aa41bb42/",
+      "email": null,
+      "location": null,
+      "reason": "Technical founder and the closest decision-maker for a platform engineering internship-to-full-time proposal.",
+      "verification_source": "https://www.ycombinator.com/companies/mastra",
+      "verification_date": "2026-08-30",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "No email address was guessed."
+    },
+    {
+      "id": "contact_sam_bhagwat",
+      "name": "Sam Bhagwat",
+      "role": "Founder and CEO",
+      "priority": 2,
+      "linkedin": "https://www.linkedin.com/in/sambhagwat/",
+      "email": null,
+      "location": null,
+      "reason": "Founder-led company with an open invitation to get in touch when a listed role does not fit; useful escalation after technical proof exists.",
+      "verification_source": "https://www.ycombinator.com/companies/mastra",
+      "verification_date": "2026-08-30",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "No email address was guessed."
+    },
+    {
+      "id": "contact_shane_thomas",
+      "name": "Shane Thomas",
+      "role": "Co-founder and Chief Product Officer",
+      "priority": 3,
+      "linkedin": "https://www.linkedin.com/in/smthomas3/",
+      "email": null,
+      "location": null,
+      "reason": "Relevant alternative for a product-engineering proposal that connects reliability work to developer experience.",
+      "verification_source": "https://www.ycombinator.com/companies/mastra",
+      "verification_date": "2026-08-30",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "No email address was guessed."
+    }
+  ],
+  "activity_log": [
+    {
+      "id": "event_20260830_created",
+      "timestamp": "2026-08-30T00:00:00Z",
+      "type": "created",
+      "actor": "codex",
+      "summary": "Mastra was researched, evaluated, and added as an inferred internship-to-full-time opportunity. No outreach or application has occurred.",
+      "from": null,
+      "to": "research-complete",
+      "contact_id": null,
+      "metadata": {"source_request": "Evaluate Mastra for an internship-to-full-time role"}
+    }
+  ],
+  "sources": [
+    {"title": "Mastra careers", "url": "https://mastra.ai/careers", "accessed_on": "2026-08-30"},
+    {"title": "Mastra about and team", "url": "https://mastra.ai/about", "accessed_on": "2026-08-30"},
+    {"title": "Mastra Series A announcement", "url": "https://mastra.ai/blog/series-a", "accessed_on": "2026-08-30"},
+    {"title": "Mastra GitHub repository", "url": "https://github.com/mastra-ai/mastra", "accessed_on": "2026-08-30"},
+    {"title": "Mastra Y Combinator profile", "url": "https://www.ycombinator.com/companies/mastra", "accessed_on": "2026-08-30"}
+  ],
+  "created_at": "2026-08-30T00:00:00Z",
+  "updated_at": "2026-08-30T00:00:00Z"
+}
