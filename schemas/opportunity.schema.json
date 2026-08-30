@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Nicky9319/job-hunting-outreach/schemas/opportunity.schema.json",
+  "title": "Job opportunity",
+  "type": "object",
+  "required": ["schema_version", "id", "slug", "company", "opportunity", "evaluation", "pipeline", "contacts", "activity_log", "sources", "created_at", "updated_at"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "id": { "type": "string", "pattern": "^opp_[a-z0-9_]+$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "company": {
+      "type": "object",
+      "required": ["name", "website", "linkedin", "location", "remote_india"],
+      "properties": {
+        "name": { "type": "string" },
+        "website": { "type": ["string", "null"], "format": "uri" },
+        "linkedin": { "type": ["string", "null"], "format": "uri" },
+        "location": { "type": ["string", "null"] },
+        "remote_india": { "enum": ["yes", "no", "unknown"] },
+        "stage": { "type": ["string", "null"] },
+        "team_size": { "type": ["string", "null"] },
+        "funding": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "opportunity": {
+      "type": "object",
+      "required": ["title", "role_status", "url"],
+      "properties": {
+        "title": { "type": "string" },
+        "role_status": { "enum": ["open", "inferred", "closed", "unknown"] },
+        "url": { "type": ["string", "null"], "format": "uri" },
+        "employment_type": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "evaluation": {
+      "type": "object",
+      "required": ["verdict", "company_score", "role_score", "base_score", "proof_advantage", "access_advantage", "outreach_priority", "evaluated_on", "summary", "hard_gate"],
+      "properties": {
+        "verdict": { "enum": ["pursue-aggressively", "pursue", "selective", "backup", "reject"] },
+        "company_score": { "type": "integer", "minimum": 0, "maximum": 50 },
+        "role_score": { "type": "integer", "minimum": 0, "maximum": 50 },
+        "base_score": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "proof_advantage": { "type": "integer", "minimum": 0, "maximum": 10 },
+        "access_advantage": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "outreach_priority": { "type": "integer", "minimum": 0, "maximum": 115 },
+        "evaluated_on": { "type": "string", "format": "date" },
+        "summary": { "type": "string" },
+        "hard_gate": { "enum": ["passed", "failed", "conditional"] },
+        "strengths": { "type": "array", "items": { "type": "string" } },
+        "gaps": { "type": "array", "items": { "type": "string" } },
+        "unknowns": { "type": "array", "items": { "type": "string" } },
+        "outreach_angle": { "type": "string" },
+        "proposed_artifact": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "pipeline": {
+      "type": "object",
+      "required": ["stage", "outreach_status", "application_status", "next_action", "next_action_due", "last_updated"],
+      "properties": {
+        "stage": { "enum": ["research-complete", "ready-to-contact", "contacted", "applied", "interviewing", "follow-up", "offer", "rejected", "paused", "closed"] },
+        "outreach_status": { "enum": ["not-started", "draft-ready", "sent", "replied", "follow-up-due", "no-response", "closed"] },
+        "application_status": { "enum": ["not-started", "submitted", "screening", "interviewing", "offer", "rejected", "withdrawn", "not-applicable"] },
+        "next_action": { "type": ["string", "null"] },
+        "next_action_due": { "type": ["string", "null"], "format": "date" },
+        "notes": { "type": ["string", "null"] },
+        "last_updated": { "type": "string", "format": "date-time" }
+      },
+      "additionalProperties": false
+    },
+    "contacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "role", "priority", "linkedin", "email", "location", "reason", "verification_source", "verification_date", "outreach_status", "last_contacted_at", "next_follow_up_at"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "priority": { "type": "integer", "minimum": 1 },
+          "linkedin": { "type": ["string", "null"], "format": "uri" },
+          "email": { "type": ["string", "null"], "format": "email" },
+          "location": { "type": ["string", "null"] },
+          "reason": { "type": "string" },
+          "verification_source": { "type": "string", "format": "uri" },
+          "verification_date": { "type": "string", "format": "date" },
+          "outreach_status": { "enum": ["not-contacted", "draft-ready", "sent", "replied", "follow-up-due", "no-response", "closed"] },
+          "last_contacted_at": { "type": ["string", "null"], "format": "date-time" },
+          "next_follow_up_at": { "type": ["string", "null"], "format": "date-time" },
+          "notes": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "activity_log": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "timestamp", "type", "actor", "summary"],
+        "properties": {
+          "id": { "type": "string" },
+          "timestamp": { "type": "string", "format": "date-time" },
+          "type": { "enum": ["created", "research-updated", "status-changed", "outreach-drafted", "outreach-sent", "reply-received", "follow-up-scheduled", "application-submitted", "interview-scheduled", "interview-completed", "offer-received", "rejected", "paused", "closed", "note-added"] },
+          "actor": { "enum": ["paarth", "codex", "system"] },
+          "summary": { "type": "string" },
+          "from": { "type": ["string", "null"] },
+          "to": { "type": ["string", "null"] },
+          "contact_id": { "type": ["string", "null"] },
+          "metadata": { "type": "object" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "url", "accessed_on"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "accessed_on": { "type": "string", "format": "date" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}
