@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0.0",
+  "id": "opp_silence_ai",
+  "slug": "silence-ai",
+  "company": {
+    "name": "Silence AI",
+    "website": "https://usesilence.com/",
+    "linkedin": "https://www.linkedin.com/company/silence-ai-agent/",
+    "location": "London, United Kingdom",
+    "remote_india": "unknown",
+    "stage": "very early",
+    "team_size": null,
+    "funding": null
+  },
+  "opportunity": {
+    "title": "Early AI/Backend Engineer",
+    "role_status": "inferred",
+    "url": "https://www.linkedin.com/company/silence-ai-agent/",
+    "employment_type": null
+  },
+  "evaluation": {
+    "verdict": "pursue",
+    "company_score": 37,
+    "role_score": 40,
+    "base_score": 77,
+    "proof_advantage": 7,
+    "access_advantage": 2,
+    "outreach_priority": 86,
+    "evaluated_on": "2026-08-30",
+    "summary": "Silence builds an agent that investigates customer-reported bugs across logs and code and creates a draft pull request. This directly matches Paarth's production-agent, observability, backend, incident-debugging, and system-ownership experience.",
+    "hard_gate": "passed",
+    "strengths": [
+      "Production conversational AI serving 30000+ monthly paying users",
+      "Evaluation and observability experience with Langfuse and large conversation datasets",
+      "Distributed backend ownership across 11 microservices, queues, databases, CI/CD, logs, metrics, and traces",
+      "Operational experience with production incidents and 30+ parallel GPU workloads"
+    ],
+    "gaps": [
+      "No verified autonomous code-repair agent experience",
+      "No demonstrated patch-correctness or regression-risk evaluation harness",
+      "No active opening was found"
+    ],
+    "unknowns": [
+      "Paying customers and production deployments",
+      "Team size, funding, and runway",
+      "Whether an engineering role or paid project exists",
+      "India hiring or international contracting",
+      "Compensation and equity",
+      "Exact technical stack and existing evaluation or sandboxing system"
+    ],
+    "outreach_angle": "Lead with experience tracing failures across distributed services, logs, model behavior, and data, then shipping safe fixes. Ask whether Surya is open to an early engineer or project-based trial from India.",
+    "proposed_artifact": "Build a bug-to-evidence evaluation harness for a sample multi-service FastAPI repository with a seeded cross-service bug, correlated logs and traces, grounded root-cause analysis, an isolated patch runner, and scores for evidence quality, patch validity, regressions, latency, and cost."
+  },
+  "pipeline": {
+    "stage": "research-complete",
+    "outreach_status": "not-started",
+    "application_status": "not-started",
+    "next_action": "Build or outline the bug-to-evidence evaluation harness, then draft a personalized LinkedIn message to Surya.",
+    "next_action_due": null,
+    "notes": "Do not mark outreach or application as sent until Paarth explicitly confirms it.",
+    "last_updated": "2026-08-30T00:00:00Z"
+  },
+  "contacts": [
+    {
+      "id": "contact_surya_g_ganesan",
+      "name": "Surya G Ganesan",
+      "role": "Founder and CEO",
+      "priority": 1,
+      "linkedin": "https://uk.linkedin.com/in/suryagganesan",
+      "email": null,
+      "location": "London, United Kingdom",
+      "reason": "Founder appears to own product and technical direction and is the best person to assess an early engineering need.",
+      "verification_source": "https://uk.linkedin.com/in/suryagganesan",
+      "verification_date": "2026-08-30",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "No email address was guessed."
+    }
+  ],
+  "activity_log": [
+    {
+      "id": "event_20260830_created",
+      "timestamp": "2026-08-30T00:00:00Z",
+      "type": "created",
+      "actor": "codex",
+      "summary": "Opportunity researched, evaluated, and added to the tracker. No outreach or application has occurred.",
+      "from": null,
+      "to": "research-complete",
+      "contact_id": null,
+      "metadata": {
+        "source_request": "Evaluate Silence AI and add it to the repository"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Silence AI LinkedIn company page",
+      "url": "https://www.linkedin.com/company/silence-ai-agent/",
+      "accessed_on": "2026-08-30"
+    },
+    {
+      "title": "Silence AI official website",
+      "url": "https://usesilence.com/",
+      "accessed_on": "2026-08-30"
+    },
+    {
+      "title": "Founder launch post",
+      "url": "https://www.linkedin.com/posts/suryagganesan_jira-tickets-are-where-customer-problems-activity-7439362055650004992-kfkN",
+      "accessed_on": "2026-08-30"
+    },
+    {
+      "title": "Surya G Ganesan LinkedIn profile",
+      "url": "https://uk.linkedin.com/in/suryagganesan",
+      "accessed_on": "2026-08-30"
+    }
+  ],
+  "created_at": "2026-08-30T00:00:00Z",
+  "updated_at": "2026-08-30T00:00:00Z"
+}
