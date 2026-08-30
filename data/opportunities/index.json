@@ -3,6 +3,23 @@
   "updated_at": "2026-08-30T00:00:00Z",
   "opportunities": [
     {
+      "id": "opp_mastra",
+      "slug": "mastra",
+      "company_name": "Mastra",
+      "role_title": "Production AI / Platform Engineering Internship-to-Full-time",
+      "role_status": "inferred",
+      "verdict": "pursue-aggressively",
+      "outreach_priority": 94,
+      "pipeline_stage": "research-complete",
+      "outreach_status": "not-started",
+      "application_status": "not-started",
+      "primary_contact_id": "contact_abhi_aiyer",
+      "next_action": "Build a small Mastra reliability artifact and open one scoped contribution discussion before sending a personalized internship-to-full-time proposal to Abhi Aiyer.",
+      "next_action_due": null,
+      "record_path": "data/opportunities/mastra.json",
+      "updated_at": "2026-08-30T00:00:00Z"
+    },
+    {
       "id": "opp_silence_ai",
       "slug": "silence-ai",
       "company_name": "Silence AI",
