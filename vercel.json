@@ -1,5 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "nextjs",
-  "ignoreCommand": "git diff HEAD^ HEAD --quiet -- app lib package.json tsconfig.json next-env.d.ts vercel.json"
+  "framework": "nextjs"
 }
