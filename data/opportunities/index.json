@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-08-30T00:00:00Z",
+  "opportunities": [
+    {
+      "id": "opp_silence_ai",
+      "slug": "silence-ai",
+      "company_name": "Silence AI",
+      "role_title": "Early AI/Backend Engineer",
+      "role_status": "inferred",
+      "verdict": "pursue",
+      "outreach_priority": 86,
+      "pipeline_stage": "research-complete",
+      "outreach_status": "not-started",
+      "application_status": "not-started",
+      "primary_contact_id": "contact_surya_g_ganesan",
+      "next_action": "Build or outline the bug-to-evidence evaluation harness, then draft a personalized LinkedIn message to Surya.",
+      "next_action_due": null,
+      "record_path": "data/opportunities/silence-ai.json",
+      "updated_at": "2026-08-30T00:00:00Z"
+    }
+  ]
+}
