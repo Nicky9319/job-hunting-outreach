@@ -1,7 +1,24 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-30T00:00:00Z",
+  "updated_at": "2026-09-01T18:33:12.847Z",
   "opportunities": [
+    {
+      "id": "opp_amboras",
+      "slug": "amboras",
+      "company_name": "Amboras",
+      "role_title": "AI Engineer",
+      "role_status": "open",
+      "verdict": "pursue-aggressively",
+      "outreach_priority": 102,
+      "pipeline_stage": "research-complete",
+      "outreach_status": "not-started",
+      "application_status": "not-started",
+      "primary_contact_id": "contact_amin_mokadem",
+      "next_action": "Build or outline the autonomous-commerce experiment safety and evaluation artifact, apply for the published AI Engineer role, then send a personalized message to Amin Mokadem with Imad Mokadem as the second contact.",
+      "next_action_due": null,
+      "record_path": "data/opportunities/amboras.json",
+      "updated_at": "2026-09-01T18:33:12.847Z"
+    },
     {
       "id": "opp_mastra",
       "slug": "mastra",

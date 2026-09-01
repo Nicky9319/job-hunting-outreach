@@ -1,4 +1,5 @@
 # Compatibility export only. Canonical data: data/opportunities/index.json
 company,slug,verdict,company_score,role_score,base_score,outreach_priority,role_status,location,remote_india,primary_contact,contact_role,contact_linkedin,opportunity_url,status,evaluated_on,record_path
+Amboras,amboras,pursue-aggressively,44,45,89,102,open,"San Francisco, California, United States",unknown,Amin Mokadem,Co-Founder and CTO,https://www.linkedin.com/in/amin-mokadem-003bb3393,https://www.amboras.com/hiring,research-complete,2026-09-01,data/opportunities/amboras.json
 Mastra,mastra,pursue-aggressively,46,37,83,94,inferred,"San Francisco, California; globally distributed",unknown,Abhi Aiyer,Founder and CTO,https://www.linkedin.com/in/abhi-aiyer-aa41bb42/,https://mastra.ai/careers,research-complete,2026-08-30,data/opportunities/mastra.json
 Silence AI,silence-ai,pursue,37,40,77,86,inferred,"London, United Kingdom",unknown,Surya G Ganesan,Founder and CEO,https://uk.linkedin.com/in/suryagganesan,https://www.linkedin.com/company/silence-ai-agent/,research-complete,2026-08-30,data/opportunities/silence-ai.json

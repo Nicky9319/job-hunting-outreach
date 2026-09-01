@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0.0",
+  "id": "opp_amboras",
+  "slug": "amboras",
+  "company": {
+    "name": "Amboras",
+    "website": "https://www.amboras.com/",
+    "linkedin": "https://www.linkedin.com/company/amboras",
+    "location": "San Francisco, California, United States",
+    "remote_india": "unknown",
+    "stage": "YC Spring 2026; active, early-stage",
+    "team_size": "3 on Y Combinator profile; LinkedIn lists 2-10",
+    "funding": "Pre-seed; backed by Y Combinator and other investors; amount undisclosed"
+  },
+  "opportunity": {
+    "title": "AI Engineer",
+    "role_status": "open",
+    "url": "https://www.amboras.com/hiring",
+    "employment_type": null
+  },
+  "evaluation": {
+    "verdict": "pursue-aggressively",
+    "company_score": 44,
+    "role_score": 45,
+    "base_score": 89,
+    "proof_advantage": 9,
+    "access_advantage": 4,
+    "outreach_priority": 102,
+    "evaluated_on": "2026-09-01",
+    "summary": "Amboras is building an AI-native ecommerce platform that generates and operates storefronts, learns from first-party customer behavior, proposes and runs live experiments, and optimizes conversion, average order value, retention, and lifetime value. Its published AI Engineer role directly matches Paarth's production-agent, analytics, experimentation, backend-infrastructure, payments, observability, and system-ownership experience. The strongest application angle is reliable agent execution and evaluation tied to measurable commerce outcomes.",
+    "hard_gate": "passed",
+    "strengths": [
+      "Directly relevant published AI Engineer opening rather than an inferred role",
+      "Production conversational AI experience serving 30000+ monthly paying users",
+      "Hands-on model evaluation, Langfuse tracing, feedback analysis, cost tracking, and large conversation datasets",
+      "Strong funnel, attribution, conversion, repeat-payment, and behavioral analytics experience",
+      "Distributed backend ownership across 11 microservices, queues, databases, CI/CD, logs, metrics, and traces",
+      "Payments and ledger experience maps to commerce infrastructure",
+      "React, Vite, Next.js, FastAPI, GCP, Docker, RabbitMQ, PostgreSQL, BigQuery, and event-pipeline experience",
+      "Built and operated a customer-facing product and can reason about product outcomes rather than only model quality",
+      "Amboras is a very small YC team where broad ownership and founder outreach can materially affect access"
+    ],
+    "gaps": [
+      "No verified professional Go or Kafka production ownership; founding engineer experience suggests both may matter",
+      "No direct Shopify platform or ecommerce catalogue, fulfillment, tax, returns, or merchant-operations experience",
+      "No published evidence yet of building an autonomous agent that edits and deploys customer-facing storefront code",
+      "No relocation or US work-authorization path established",
+      "Frontend is not Paarth's first preference even though this role may require full-stack execution"
+    ],
+    "unknowns": [
+      "Whether the role accepts a remote start from India or internship-to-full-time arrangement",
+      "Whether Amboras can support eventual US work authorization",
+      "Compensation, equity, employment type, working hours, and relocation timeline",
+      "Exact production stack and required agent framework",
+      "Current paying merchants, revenue, retention, runway, and production traffic",
+      "Methodology, sample size, duration, and statistical significance behind the reported conversion-rate lift",
+      "Safety controls for agent-generated price, copy, offer, layout, and checkout changes",
+      "Experiment assignment, attribution, guardrail metrics, rollback strategy, and protection against short-term metric gaming",
+      "Whether the AI Engineer seat remains available after the careers page was last checked"
+    ],
+    "outreach_angle": "Lead with the overlap between Times Astro and Amboras: production agents, customer-session analysis, conversion funnels, model evaluation, tracing, and business-outcome measurement. Add Renderperk as proof of end-to-end backend, payments, distributed infrastructure, and production ownership. Propose building the safety and evaluation layer for Amboras's autonomous storefront experimentation loop. Ask directly about an internship-to-full-time remote start from India and a later San Francisco path.",
+    "proposed_artifact": "Build a compact autonomous-commerce experiment simulator: ingest synthetic storefront sessions and funnel events; let an agent propose a copy, offer, or layout variant; require structured evidence and safety-policy checks; assign traffic deterministically; calculate CVR, AOV, retention proxies, confidence intervals, and guardrail metrics; record traces; and support automatic rollback. Include unsafe price changes, insufficient-sample conclusions, conflicting metrics, and prompt-injection attempts from catalogue content."
+  },
+  "pipeline": {
+    "stage": "research-complete",
+    "outreach_status": "not-started",
+    "application_status": "not-started",
+    "next_action": "Build or outline the autonomous-commerce experiment safety and evaluation artifact, apply for the published AI Engineer role, then send a personalized message to Amin Mokadem with Imad Mokadem as the second contact.",
+    "next_action_due": null,
+    "notes": "AI Engineer and Full-Stack Engineer are listed on Amboras's careers page. Public hiring language suggests a highly committed, likely San Francisco-centered environment; confirm current terms directly. Do not mark outreach or application as sent until Paarth explicitly confirms it.",
+    "last_updated": "2026-09-01T18:33:12.847Z"
+  },
+  "contacts": [
+    {
+      "id": "contact_amin_mokadem",
+      "name": "Amin Mokadem",
+      "role": "Co-Founder and CTO",
+      "priority": 1,
+      "linkedin": "https://www.linkedin.com/in/amin-mokadem-003bb3393",
+      "email": null,
+      "location": "San Francisco, California, United States",
+      "reason": "Technical co-founder and primary decision-maker for the published AI Engineer role; he has publicly posted about engineering hiring.",
+      "verification_source": "https://www.ycombinator.com/companies/amboras",
+      "verification_date": "2026-09-01",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Public professional profile only; no email stored in this public repository. Personalize around agent reliability, experimentation infrastructure, and production ownership."
+    },
+    {
+      "id": "contact_imad_eddine_mokadem",
+      "name": "Imad Eddine Mokadem",
+      "role": "Co-Founder and CEO",
+      "priority": 2,
+      "linkedin": "https://www.linkedin.com/in/imad-eddine-mokadem-36aa64224",
+      "email": null,
+      "location": "San Francisco, California, United States",
+      "reason": "Founder leading engineering and autonomous AI systems according to company materials; appropriate second founder contact and escalation path.",
+      "verification_source": "https://www.ycombinator.com/companies/amboras",
+      "verification_date": "2026-09-01",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Public professional profile only; no email stored in this public repository. Do not send identical generic outreach to both founders."
+    },
+    {
+      "id": "contact_vaibhav_agarwal",
+      "name": "Vaibhav Agarwal",
+      "role": "Founding Engineer",
+      "priority": 3,
+      "linkedin": null,
+      "email": null,
+      "location": null,
+      "reason": "Founding engineer leading core product and engineering; relevant for a technical conversation or warm internal referral after founder outreach.",
+      "verification_source": "https://www.amboras.com/team",
+      "verification_date": "2026-09-01",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Company page lists generative AI, distributed systems, backend infrastructure, workflow automation, Go, Kafka, and React experience. No unambiguously verified public profile URL was stored."
+    }
+  ],
+  "activity_log": [
+    {
+      "id": "event_20260901_created",
+      "timestamp": "2026-09-01T18:33:12.847Z",
+      "type": "created",
+      "actor": "codex",
+      "summary": "Amboras was researched, evaluated, and added as a published AI Engineer opportunity with founders, a founding-engineer contact, application path, fit analysis, risks, unknowns, outreach positioning, and a proposed technical artifact. No outreach or application has occurred.",
+      "from": null,
+      "to": "research-complete",
+      "contact_id": null,
+      "metadata": {
+        "source_request": "Evaluate Amboras and add all relevant findings and contacts to the job-hunting outreach repository"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Amboras official website",
+      "url": "https://www.amboras.com/",
+      "accessed_on": "2026-09-01"
+    },
+    {
+      "title": "Amboras careers",
+      "url": "https://www.amboras.com/hiring",
+      "accessed_on": "2026-09-01"
+    },
+    {
+      "title": "Amboras team",
+      "url": "https://www.amboras.com/team",
+      "accessed_on": "2026-09-01"
+    },
+    {
+      "title": "Amboras backing and investors",
+      "url": "https://www.amboras.com/backed",
+      "accessed_on": "2026-09-01"
+    },
+    {
+      "title": "Amboras Y Combinator profile and launch",
+      "url": "https://www.ycombinator.com/companies/amboras",
+      "accessed_on": "2026-09-01"
+    },
+    {
+      "title": "Amboras LinkedIn company page",
+      "url": "https://www.linkedin.com/company/amboras",
+      "accessed_on": "2026-09-01"
+    },
+    {
+      "title": "Amin Mokadem LinkedIn profile",
+      "url": "https://www.linkedin.com/in/amin-mokadem-003bb3393",
+      "accessed_on": "2026-09-01"
+    },
+    {
+      "title": "Amin Mokadem public engineering hiring post",
+      "url": "https://www.linkedin.com/posts/amin-mokadem-003bb3393_i-havent-attended-any-classes-yet-as-a-first-year-activity-7441863044906913793-YKCT",
+      "accessed_on": "2026-09-01"
+    },
+    {
+      "title": "Imad Eddine Mokadem LinkedIn profile",
+      "url": "https://www.linkedin.com/in/imad-eddine-mokadem-36aa64224",
+      "accessed_on": "2026-09-01"
+    }
+  ],
+  "created_at": "2026-09-01T18:33:12.847Z",
+  "updated_at": "2026-09-01T18:33:12.847Z"
+}
