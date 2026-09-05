@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-05T08:57:24.880Z",
+  "updated_at": "2026-09-05T10:10:00Z",
   "opportunities": [
     {
       "id": "opp_amboras",
@@ -31,10 +31,10 @@
       "outreach_status": "not-started",
       "application_status": "not-started",
       "primary_contact_id": "contact_kaan_durmaz",
-      "next_action": "Build or outline the renewable-operations agent reliability harness, apply through the published Tally form, then send a personalized LinkedIn message to CTO Kaan Durmaz. Use Joseph Perrotta, Nicolas Gutierrez de Esteban, and Pietro Valente as differentiated alternatives.",
+      "next_action": "Review the official careers page, build or outline the renewable-operations agent reliability harness, apply through the direct Tally form, then send a personalized LinkedIn message to CTO Kaan Durmaz. Use Joseph Perrotta, Nicolas Gutierrez de Esteban, and Pietro Valente as differentiated alternatives.",
       "next_action_due": null,
       "record_path": "data/opportunities/invertix.json",
-      "updated_at": "2026-09-05T09:50:00Z"
+      "updated_at": "2026-09-05T10:10:00Z"
     },
     {
       "id": "opp_iris_os",
