@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-05T08:12:53.364Z",
+  "updated_at": "2026-09-05T09:50:00Z",
   "opportunities": [
     {
       "id": "opp_amboras",
@@ -18,6 +18,23 @@
       "next_action_due": null,
       "record_path": "data/opportunities/amboras.json",
       "updated_at": "2026-09-01T18:33:12.847Z"
+    },
+    {
+      "id": "opp_invertix",
+      "slug": "invertix",
+      "company_name": "Invertix",
+      "role_title": "Forward Deployed Engineer",
+      "role_status": "open",
+      "verdict": "pursue-aggressively",
+      "outreach_priority": 100,
+      "pipeline_stage": "research-complete",
+      "outreach_status": "not-started",
+      "application_status": "not-started",
+      "primary_contact_id": "contact_kaan_durmaz",
+      "next_action": "Build or outline the renewable-operations agent reliability harness, apply through the published Tally form, then send a personalized LinkedIn message to CTO Kaan Durmaz. Use Joseph Perrotta, Nicolas Gutierrez de Esteban, and Pietro Valente as differentiated alternatives.",
+      "next_action_due": null,
+      "record_path": "data/opportunities/invertix.json",
+      "updated_at": "2026-09-05T09:50:00Z"
     },
     {
       "id": "opp_mastra",
