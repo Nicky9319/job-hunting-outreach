@@ -4,6 +4,7 @@
 - **Base score:** 87/100
 - **Outreach priority:** 100/115
 - **Role:** [Forward Deployed Engineer](https://tally.so/r/Y5o1Lz)
+- **Official careers:** [Invertix careers](https://www.invertix.ai/careers)
 - **Location:** Munich, Germany; San Francisco, United States
 - **Remote from India:** unknown
 - **Pipeline:** research complete; outreach and application not started
@@ -33,4 +34,4 @@ Build a compact renewable-operations agent reliability harness using synthetic i
 
 ## Next action
 
-Outline the artifact, apply through the Tally form, then message Kaan. Keep the messages to Joseph, Nicolas, and Pietro differentiated. Do not mark any action complete until confirmed.
+Review the official careers page, outline the artifact, apply through the direct Tally form, then message Kaan. Keep the messages to Joseph, Nicolas, and Pietro differentiated. Do not mark any action complete until confirmed.
