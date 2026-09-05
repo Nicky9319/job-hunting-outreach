@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-05T09:50:00Z",
+  "updated_at": "2026-09-05T08:57:24.880Z",
   "opportunities": [
     {
       "id": "opp_amboras",
@@ -35,6 +35,23 @@
       "next_action_due": null,
       "record_path": "data/opportunities/invertix.json",
       "updated_at": "2026-09-05T09:50:00Z"
+    },
+    {
+      "id": "opp_iris_os",
+      "slug": "iris-os",
+      "company_name": "IRIS OS",
+      "role_title": "Founding CTO / AI Engineer",
+      "role_status": "open",
+      "verdict": "pursue",
+      "outreach_priority": 95,
+      "pipeline_stage": "research-complete",
+      "outreach_status": "not-started",
+      "application_status": "not-started",
+      "primary_contact_id": "contact_clarisse_beurrier",
+      "next_action": "Confirm remote-from-India eligibility and authoritative compensation with founder Clarisse Beurrier or COO Jacqueline Corsini; if viable, tailor the CV, outline the relationship-routing agent artifact, apply through JOIN, and send a differentiated founder message.",
+      "next_action_due": null,
+      "record_path": "data/opportunities/iris-os.json",
+      "updated_at": "2026-09-05T08:57:24.880Z"
     },
     {
       "id": "opp_mastra",

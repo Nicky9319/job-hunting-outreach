@@ -225,6 +225,23 @@ function OpportunityPanel({ item, saving, onSave }: {
 
       <p className="summary">{item.evaluation.summary}</p>
 
+      <section className="application-widget" aria-label="Job application">
+        <div className="application-widget-copy">
+          <span className="application-kicker">JOB APPLICATION</span>
+          <strong>{item.opportunity.title}</strong>
+          <span>
+            {item.opportunity.employment_type || "Employment type unknown"} · {item.company.location || "Location unknown"}
+          </span>
+        </div>
+        {item.opportunity.url ? (
+          <a className="application-link" href={item.opportunity.url} target="_blank" rel="noreferrer">
+            Open application ↗
+          </a>
+        ) : (
+          <span className="application-unavailable">No application link</span>
+        )}
+      </section>
+
       <section className="panel action-panel">
         <div className="section-title"><h3>Current state</h3><span>Last updated {date(item.updated_at)}</span></div>
         <div className="form-grid">

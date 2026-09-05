@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0.0",
+  "id": "opp_iris_os",
+  "slug": "iris-os",
+  "company": {
+    "name": "IRIS OS",
+    "website": "https://iriscapital.ai/",
+    "linkedin": "https://uk.linkedin.com/company/iris-capital-ai",
+    "location": "London, Cambridge, and Paris",
+    "remote_india": "unknown",
+    "stage": "Early-stage; product and network in active build",
+    "team_size": "1-10 employees on JOIN; official site shows a small founder-led operating team",
+    "funding": "IRIS funding undisclosed; founder previously secured £5M for Cellcraft"
+  },
+  "opportunity": {
+    "title": "Founding CTO / AI Engineer",
+    "role_status": "open",
+    "url": "https://join.com/companies/irisconnectorai/16644853-founding-cto-ai-engineer",
+    "employment_type": "Full-time employee; JOIN lists London hybrid"
+  },
+  "evaluation": {
+    "verdict": "pursue",
+    "company_score": 39,
+    "role_score": 43,
+    "base_score": 82,
+    "proof_advantage": 9,
+    "access_advantage": 4,
+    "outreach_priority": 95,
+    "evaluated_on": "2026-09-05",
+    "summary": "IRIS OS is building a graph-native, voice-first relationship intelligence system and autonomous fundraising agent spanning email, WhatsApp, phone, and web. The role strongly matches Paarth's production conversational-AI, agent orchestration, backend, cloud, evaluation, observability, workflow automation, and product-analytics experience. The primary blockers are CTO-level seniority and unresolved location terms: the canonical JOIN listing says London hybrid and €100,000, while Jack & Jill advertises remote and €70,000 plus equity.",
+    "hard_gate": "conditional",
+    "strengths": [
+      "Published hands-on Founding CTO / AI Engineer opening",
+      "Direct match for autonomous agents across WhatsApp, email, phone, and web",
+      "Strong overlap with production conversational AI, agent evaluation, tracing, feedback analysis, and large-scale interaction data",
+      "Renderperk demonstrates distributed backend ownership, queues, payments, storage, CI/CD, observability, and incident debugging",
+      "Role explicitly prioritizes AI governance, evaluation, safe deployment, privacy, transparency, and explainable matching",
+      "Product requires relationship graphs, structured data, workflow orchestration, contextual memory, and reliable tool execution",
+      "Compensation is materially above Paarth's target if eligibility and terms are genuine",
+      "Small founder-led team makes direct outreach and a proof-first proposal viable"
+    ],
+    "gaps": [
+      "No previous formal CTO or engineering-management title",
+      "No direct venture-capital relationship graph or fundraising-platform experience",
+      "Limited demonstrated bias-mitigation and privacy-preserving ML ownership",
+      "London hybrid and employee classification may exclude an India-based start",
+      "Role expects zero-to-one architecture plus future hiring and team leadership",
+      "Close European-hours requirement creates sustained timezone overlap"
+    ],
+    "unknowns": [
+      "Whether the role is London hybrid or genuinely remote",
+      "Whether remote work includes India and whether contracting is possible",
+      "Why JOIN lists €100,000 while Jack & Jill lists €70,000 plus equity",
+      "Equity percentage, vesting, cliff, and dilution terms",
+      "Current product maturity, active founders and investors, revenue, runway, and funding",
+      "Relationship-graph architecture, data sources, consent model, and data ownership",
+      "Current responsibilities and continued role of the existing Tech Lead",
+      "Bias evaluation methodology and legal basis for processing contact and relationship data",
+      "Whether a paid trial or internship-to-full-time structure is acceptable"
+    ],
+    "outreach_angle": "Message founder Clarisse Beurrier with a technically specific proposal: position Paarth around production conversational agents, multi-channel integrations, tracing and evaluation, relationship/context systems, workflow reliability, and backend infrastructure. Acknowledge that the opening is CTO-level and ask whether she would consider a paid milestone-based trial leading into the founding role. Ask directly whether the role can begin remotely from India and which compensation listing is authoritative.",
+    "proposed_artifact": "Build a relationship-routing agent prototype using synthetic founder and investor profiles: graph-based thesis matching, explainable ranking, consent-aware contact paths, structured warm-introduction drafts, WhatsApp/email tool simulations, human approval before sending, idempotent outreach records, audit logs, evaluation for match quality and demographic bias, prompt-injection tests, and Langfuse-style traces with latency, cost, failure, and recovery metrics."
+  },
+  "pipeline": {
+    "stage": "research-complete",
+    "outreach_status": "not-started",
+    "application_status": "not-started",
+    "next_action": "Confirm remote-from-India eligibility and authoritative compensation with founder Clarisse Beurrier or COO Jacqueline Corsini; if viable, tailor the CV, outline the relationship-routing agent artifact, apply through JOIN, and send a differentiated founder message.",
+    "next_action_due": null,
+    "notes": "Do not apply blindly before resolving location. JOIN currently says London hybrid and €100,000/year; Jack & Jill says remote and €70,000 plus equity. No outreach or application has occurred.",
+    "last_updated": "2026-09-05T08:57:24.880Z"
+  },
+  "contacts": [
+    {
+      "id": "contact_clarisse_beurrier",
+      "name": "Clarisse Beurrier",
+      "role": "Founder, IRIS OS; CTO and Co-Founder, Cellcraft",
+      "priority": 1,
+      "linkedin": "https://www.linkedin.com/in/clarisse-beurrier/",
+      "email": null,
+      "location": "Cambridge, United Kingdom",
+      "reason": "Founder and ultimate decision-maker for the founding technical leadership role.",
+      "verification_source": "https://iriscapital.ai/team",
+      "verification_date": "2026-09-05",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Lead with production agent infrastructure, trustworthy matching, evaluation, and a milestone-based trial. Ask about India eligibility and compensation discrepancy."
+    },
+    {
+      "id": "contact_jacqueline_corsini",
+      "name": "Jacqueline Corsini",
+      "role": "COO, IRIS OS",
+      "priority": 2,
+      "linkedin": "https://www.linkedin.com/in/jacqueline-corsini000/",
+      "email": null,
+      "location": "London, United Kingdom",
+      "reason": "Named recruiting contact on JOIN and operating lead responsible for partnerships and product trust.",
+      "verification_source": "https://join.com/companies/irisconnectorai/16644853-founding-cto-ai-engineer",
+      "verification_date": "2026-09-05",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Best contact for confirming hybrid versus remote status, employment structure, and process."
+    },
+    {
+      "id": "contact_valentin_stanciu",
+      "name": "Valentin Stanciu",
+      "role": "Tech Lead, IRIS OS",
+      "priority": 3,
+      "linkedin": "https://www.linkedin.com/in/valentin-stanciu-684a97229/",
+      "email": null,
+      "location": null,
+      "reason": "Existing technical lead who can clarify the current system, technical bar, and division of responsibilities with the incoming CTO.",
+      "verification_source": "https://iriscapital.ai/team",
+      "verification_date": "2026-09-05",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Use as a technical peer route after founder or recruiting contact; ask focused architecture and ownership questions."
+    }
+  ],
+  "activity_log": [
+    {
+      "id": "event_20260905_created",
+      "timestamp": "2026-09-05T08:57:24.880Z",
+      "type": "created",
+      "actor": "codex",
+      "summary": "IRIS OS was evaluated and added with the exact Founding CTO / AI Engineer application, verified founder, COO/recruiting contact, Tech Lead, role-fit analysis, conflicting location and salary terms, and a proposed relationship-routing agent artifact. No outreach or application has occurred.",
+      "from": null,
+      "to": "research-complete",
+      "contact_id": null,
+      "metadata": {
+        "source_request": "Evaluate the IRIS OS Founding CTO / AI Engineer role and add it if it passes the pursuit gate"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "IRIS OS Founding CTO / AI Engineer application on JOIN",
+      "url": "https://join.com/companies/irisconnectorai/16644853-founding-cto-ai-engineer",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "IRIS OS company jobs page on JOIN",
+      "url": "https://join.com/companies/irisconnectorai",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "IRIS official website",
+      "url": "https://iriscapital.ai/",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "IRIS official team page",
+      "url": "https://iriscapital.ai/team",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "IRIS OS LinkedIn company page",
+      "url": "https://uk.linkedin.com/company/iris-capital-ai",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Jack & Jill version of Founding CTO role",
+      "url": "https://www.jackandjill.ai/jobs/engineer/founding-cto-ai-engineer-70k-equity-at-iris-os-f21efeb7-4fd7-4b89-b912-914130346bb1",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Clarisse Beurrier LinkedIn profile",
+      "url": "https://www.linkedin.com/in/clarisse-beurrier/",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Jacqueline Corsini LinkedIn profile",
+      "url": "https://www.linkedin.com/in/jacqueline-corsini000/",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Valentin Stanciu LinkedIn profile",
+      "url": "https://www.linkedin.com/in/valentin-stanciu-684a97229/",
+      "accessed_on": "2026-09-05"
+    }
+  ],
+  "created_at": "2026-09-05T08:57:24.880Z",
+  "updated_at": "2026-09-05T08:57:24.880Z"
+}
