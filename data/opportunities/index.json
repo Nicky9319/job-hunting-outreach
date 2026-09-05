@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-05T10:10:00Z",
+  "updated_at": "2026-09-05T17:13:25Z",
   "opportunities": [
     {
       "id": "opp_amboras",
@@ -35,6 +35,23 @@
       "next_action_due": null,
       "record_path": "data/opportunities/invertix.json",
       "updated_at": "2026-09-05T10:10:00Z"
+    },
+    {
+      "id": "opp_serro",
+      "slug": "serro",
+      "company_name": "Serro",
+      "role_title": "AI / Backend / Agent Infrastructure Engineer",
+      "role_status": "inferred",
+      "verdict": "pursue-aggressively",
+      "outreach_priority": 100,
+      "pipeline_stage": "research-complete",
+      "outreach_status": "not-started",
+      "application_status": "not-started",
+      "primary_contact_id": "contact_jake_kim",
+      "next_action": "Build or outline the temporal program-memory evaluation harness, then send Jake Kim a concise technical message requesting feedback and proposing a remote internship-to-full-time or paid milestone trial. Contact Tianlin Zhao or Christopher Brady only with differentiated technical questions if there is no founder response.",
+      "next_action_due": null,
+      "record_path": "data/opportunities/serro.json",
+      "updated_at": "2026-09-05T17:13:25Z"
     },
     {
       "id": "opp_iris_os",
