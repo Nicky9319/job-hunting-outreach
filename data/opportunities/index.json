@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-01T18:33:12.847Z",
+  "updated_at": "2026-09-05T08:12:53.364Z",
   "opportunities": [
     {
       "id": "opp_amboras",
@@ -35,6 +35,23 @@
       "next_action_due": null,
       "record_path": "data/opportunities/mastra.json",
       "updated_at": "2026-08-30T00:00:00Z"
+    },
+    {
+      "id": "opp_frontieru",
+      "slug": "frontieru",
+      "company_name": "FrontierU",
+      "role_title": "Founding Engineer",
+      "role_status": "open",
+      "verdict": "pursue",
+      "outreach_priority": 91,
+      "pipeline_stage": "research-complete",
+      "outreach_status": "not-started",
+      "application_status": "not-started",
+      "primary_contact_id": "contact_andries_kerpestein",
+      "next_action": "Write the requested first-30-days plan and agent-driven engineering case study, submit the published application, then send a personalized LinkedIn message to founder Andries Kerpestein proposing a paid milestone-based trial.",
+      "next_action_due": null,
+      "record_path": "data/opportunities/frontieru.json",
+      "updated_at": "2026-09-05T08:12:53.364Z"
     },
     {
       "id": "opp_silence_ai",

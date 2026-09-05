@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "id": "opp_frontieru",
+  "slug": "frontieru",
+  "company": {
+    "name": "FrontierU",
+    "website": "https://frontieru.org/",
+    "linkedin": null,
+    "location": "Florence, Italy; remote worldwide",
+    "remote_india": "yes",
+    "stage": "Early-stage; pre-launch platform and first campus planned",
+    "team_size": "Small founding team; exact size undisclosed",
+    "funding": "Unknown; investor materials are private"
+  },
+  "opportunity": {
+    "title": "Founding Engineer",
+    "role_status": "open",
+    "url": "https://jobs.polymer.co/cloud-college/40562",
+    "employment_type": "Full-time"
+  },
+  "evaluation": {
+    "verdict": "pursue",
+    "company_score": 37,
+    "role_score": 41,
+    "base_score": 78,
+    "proof_advantage": 9,
+    "access_advantage": 4,
+    "outreach_priority": 91,
+    "evaluated_on": "2026-09-05",
+    "summary": "FrontierU is building a private global community for ambitious young people with Socrates, a personalised AI mentor and tutor. The published Founding Engineer role strongly matches Paarth's production-agent, backend-infrastructure, evaluation, observability, payments, queues, concurrency, CI/CD, and end-to-end product ownership experience. The central risk is seniority: this is effectively a hands-on CTO role with complete technical ownership, 30-day prototype parity, a 90-day launch target, and responsibility for security, GDPR, safeguarding, reliability, and hiring.",
+    "hard_gate": "passed",
+    "strengths": [
+      "Published agent-first engineering opening with remote work from anywhere",
+      "Direct alignment with multi-agent orchestration, reusable skills, context systems, tool integrations, evaluation, and human approval gates",
+      "Strong match for APIs, authentication, transactions, concurrency, queues, idempotency, recovery, object storage, payments, and CI/CD",
+      "Renderperk proves distributed production ownership across 11 microservices, GPU workloads, queues, storage, payments, observability, and deployment",
+      "Times Astro proves production conversational AI, Langfuse tracing, model comparison, evaluation, feedback analysis, and large-scale analytics",
+      "Role values shipped evidence over formal credentials",
+      "Small team makes proof-first founder outreach valuable"
+    ],
+    "gaps": [
+      "No prior formal CTO, staff-engineer, or founding-engineer title",
+      "Limited evidence of independently owning GDPR, safeguarding, and security for a platform used by minors",
+      "TypeScript full-stack development is not Paarth's strongest or preferred ecosystem",
+      "No demonstrated experience hiring and leading a production engineering team",
+      "Role expects complete technical accountability from day one rather than an internship ramp"
+    ],
+    "unknowns": [
+      "Salary, equity, vesting, and employment or contracting structure",
+      "Whether worldwide remote explicitly supports India",
+      "Current funding, runway, revenue, waitlist size, and committed launch customers",
+      "Actual codebase maturity, test coverage, architecture, and backlog size",
+      "Existing security, GDPR, data-residency, safeguarding, and legal support",
+      "Whether the founder would consider an 8-12 week paid trial",
+      "Working-hour overlap and Florence expectations",
+      "Why the job board uses the former Cloud College identifier"
+    ],
+    "outreach_angle": "Lead with the exact overlap between FrontierU's agent-first model and Paarth's production systems: multi-agent orchestration, bounded task lanes, evaluation and tracing, backend reliability, queues, payments, observability, and incident debugging. Acknowledge the CTO-level scope. Propose a paid, milestone-based trial whose first 30 days audit the codebase and agent workflow, establish quality and security gates, and take one incomplete critical journey to production-like acceptance. Ask about India contracting, compensation, runway, and conversion.",
+    "proposed_artifact": "Prepare a FrontierU first-30-days technical plan: week 1 codebase, security, data-flow, dependency, and agent-workflow audit; week 2 isolated worktrees, bounded agent lanes, acceptance criteria, CI evidence, and approval gates; week 3 complete one critical end-to-end member journey with permissions, persistence, failure handling, and tests; week 4 deploy to production-like staging with traces, evaluations, alerts, rollback, backup-restore evidence, and a measured prototype-parity report."
+  },
+  "pipeline": {
+    "stage": "research-complete",
+    "outreach_status": "not-started",
+    "application_status": "not-started",
+    "next_action": "Write the requested first-30-days plan and agent-driven engineering case study, submit the published application, then send a personalized LinkedIn message to founder Andries Kerpestein proposing a paid milestone-based trial.",
+    "next_action_due": null,
+    "notes": "The listing is titled Founding Engineer but describes a hands-on CTO mandate. Posted July 14, 2026 and still publicly accessible. Do not mark outreach or application as sent until Paarth confirms it.",
+    "last_updated": "2026-09-05T08:12:53.364Z"
+  },
+  "contacts": [
+    {
+      "id": "contact_andries_kerpestein",
+      "name": "Andries Kerpestein",
+      "role": "Founder and Director",
+      "priority": 1,
+      "linkedin": "https://fr.linkedin.com/in/andries-k-b29482164",
+      "email": null,
+      "location": "France",
+      "reason": "Founder leading FrontierU's product, brand, and admissions and the direct decision-maker for the Founding Engineer hire.",
+      "verification_source": "https://frontieru.org/campus-operators",
+      "verification_date": "2026-09-05",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "LinkedIn is publicly indexed as Andries K.; identity is corroborated by LSE history and The Proprietary State project. No email stored."
+    }
+  ],
+  "activity_log": [
+    {
+      "id": "event_20260905_created",
+      "timestamp": "2026-09-05T08:12:53.364Z",
+      "type": "created",
+      "actor": "codex",
+      "summary": "FrontierU was researched and added with the exact job application, founder Andries Kerpestein's verified LinkedIn profile, fit analysis, risks, unknowns, outreach positioning, and a first-30-days artifact. No outreach or application has occurred.",
+      "from": null,
+      "to": "research-complete",
+      "contact_id": null,
+      "metadata": {
+        "source_request": "Add FrontierU, the exact application, and founder LinkedIn to the tracker"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "FrontierU Founding Engineer job application",
+      "url": "https://jobs.polymer.co/cloud-college/40562",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "FrontierU official website",
+      "url": "https://frontieru.org/",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "FrontierU about and roadmap",
+      "url": "https://frontieru.org/about",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "FrontierU campus operators and founder profile",
+      "url": "https://frontieru.org/campus-operators",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Andries Kerpestein personal website",
+      "url": "https://andrieskerpestein.com/",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Andries Kerpestein LinkedIn profile",
+      "url": "https://fr.linkedin.com/in/andries-k-b29482164",
+      "accessed_on": "2026-09-05"
+    }
+  ],
+  "created_at": "2026-09-05T08:12:53.364Z",
+  "updated_at": "2026-09-05T08:12:53.364Z"
+}
