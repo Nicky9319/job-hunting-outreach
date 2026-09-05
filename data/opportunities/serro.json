@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0.0",
+  "id": "opp_serro",
+  "slug": "serro",
+  "company": {
+    "name": "Serro",
+    "website": "https://serro.ai/",
+    "linkedin": "https://www.linkedin.com/company/serroai",
+    "location": "Mountain View, California, United States",
+    "remote_india": "unknown",
+    "stage": "Pre-seed; founded around 2025; previously ByTeams; design-partner and early-customer stage",
+    "team_size": "2-10 employees officially; LinkedIn shows approximately 11 associated profiles",
+    "funding": "$1M-$1.2M pre-seed announced June 30, 2025, led by 10vc with Mashup Ventures participating"
+  },
+  "opportunity": {
+    "title": "AI / Backend / Agent Infrastructure Engineer",
+    "role_status": "inferred",
+    "url": "https://www.linkedin.com/company/serroai/jobs/",
+    "employment_type": null
+  },
+  "evaluation": {
+    "verdict": "pursue-aggressively",
+    "company_score": 42,
+    "role_score": 44,
+    "base_score": 86,
+    "proof_advantage": 10,
+    "access_advantage": 4,
+    "outreach_priority": 100,
+    "evaluated_on": "2026-09-05",
+    "summary": "Serro is building an Agentic Technical Program Manager and coordination layer for AI-native engineering organizations. It continuously converts signals from Slack, GitHub, Jira, Linear, meetings, email, Notion, and codebases into temporal program memory, reports, drift detection, loops, governance, and analytics. No current public vacancy was found, but recent founding-engineer additions and the founder's public discussion of Serro's AI-native hiring challenge show that the company hires selectively. The work is exceptionally aligned with Paarth's production-agent, evaluation, observability, backend, distributed-systems, and large-scale conversational-data experience; the decisive unknown is whether Serro would support a remote internship-to-full-time or paid trial from India.",
+    "hard_gate": "passed",
+    "strengths": [
+      "Core product problem is long-horizon agent memory, context routing, temporal reasoning, evaluation, and reliable coordination rather than a generic LLM wrapper",
+      "Direct match with production AI agents, LangGraph-style orchestration, tracing, evaluations, observability, backend services, queues, and failure handling",
+      "Times Astro experience provides evidence of analyzing production conversations, model behavior, user feedback, cost, and reliability at meaningful scale",
+      "Renderperk provides evidence of owning distributed services, queues, storage, payments, CI/CD, metrics, logs, incidents, and parallel workloads",
+      "Serro's integrations create concrete engineering problems in ingestion, identity resolution, event ordering, permissions, source conflicts, auditability, and idempotency",
+      "Founder publicly says Serro evaluates system design, problem-solving, prompt quality, and code comprehension because more than 90% of its code is AI-written",
+      "Recent additions of founding software and AI engineers indicate real technical hiring activity even though no vacancy is currently published",
+      "Small funded team and public founder email make a proof-of-work-led direct approach viable",
+      "Mountain View headquarters and founder's Silicon Valley network provide strong long-term SF exposure"
+    ],
+    "gaps": [
+      "No published role or application form was found; the opportunity is inferred and requires founder-led outreach",
+      "Remote work from India, internship eligibility, compensation, equity, and employment structure are unknown",
+      "The visible team and recent hires appear concentrated in the United States, so location may be a hard constraint",
+      "No direct professional experience building temporal knowledge graphs or graph databases is established",
+      "No enterprise TPM role or formal program-management background",
+      "Revenue, paying-customer count, runway, retention, and design-partner conversion are not publicly verified",
+      "The company has pivoted and lost two co-founders, increasing early-stage product-market-fit and execution risk"
+    ],
+    "unknowns": [
+      "Whether Serro is currently considering additional engineering hires after its recent founding-engineer additions",
+      "Whether Jake Kim would consider a remote internship-to-full-time arrangement or paid project trial from India",
+      "Expected working-hour overlap, relocation requirements, visa support, compensation, and equity",
+      "Current architecture, model providers, graph storage, event pipeline, evaluation framework, and observability stack",
+      "How Serro resolves conflicting facts from Slack, meetings, tickets, and code while preserving provenance and temporal validity",
+      "Current number of paying customers, MRR or ARR, design partners, retention, and sales-cycle length",
+      "Enterprise security posture, data residency, connector permissions, deletion guarantees, and model-training policy",
+      "Whether the original co-founder Anurag Kapale retains any current role; his public profile now lists SoundHound AI"
+    ],
+    "outreach_angle": "Do not send a generic job request. Lead with the hardest part of Serro's promise: proving that live program memory stays correct when Slack, meetings, tickets, and code disagree or arrive out of order. Show production-agent evaluation and observability experience, then offer a compact temporal-memory reliability harness. Ask Jake for a short technical review and propose a remote internship-to-full-time or paid milestone trial only after establishing technical relevance.",
+    "proposed_artifact": "Build a temporal program-memory evaluation harness using a synthetic software initiative spread across Slack messages, meeting transcripts, Jira or Linear events, pull requests, and code changes. Inject contradictions, delayed events, ownership changes, reopened decisions, stale risks, duplicate webhook deliveries, and permission-restricted sources. Produce a versioned program graph with provenance, valid-time and transaction-time fields, confidence, conflict flags, and an audit trail. Evaluate decision accuracy, owner accuracy, stale-fact rate, temporal consistency, conflict resolution, citation coverage, idempotency, and recovery after connector failure; expose traces and a small timeline viewer."
+  },
+  "pipeline": {
+    "stage": "research-complete",
+    "outreach_status": "not-started",
+    "application_status": "not-started",
+    "next_action": "Build or outline the temporal program-memory evaluation harness, then send Jake Kim a concise technical message requesting feedback and proposing a remote internship-to-full-time or paid milestone trial. Contact Tianlin Zhao or Christopher Brady only with differentiated technical questions if there is no founder response.",
+    "next_action_due": null,
+    "notes": "No current public job description or direct application form was found. The LinkedIn Jobs URL is retained as the opportunity URL so the dashboard exposes the best available hiring surface. Recent founding-engineer joins and a public post describing Serro's candidate coding challenge are strong hiring signals, not proof of an active vacancy. Do not mark outreach or application as sent until Paarth explicitly confirms it.",
+    "last_updated": "2026-09-05T17:13:25Z"
+  },
+  "contacts": [
+    {
+      "id": "contact_jake_kim",
+      "name": "Jake Kim",
+      "role": "Founder and CEO",
+      "priority": 1,
+      "linkedin": "https://www.linkedin.com/in/jakejooyoung",
+      "email": null,
+      "location": "Mountain View, California, United States",
+      "reason": "Founder, CEO, product architect, and likely decision-maker for an opportunistic internship, engineering role, or paid trial.",
+      "verification_source": "https://serro.ai/",
+      "verification_date": "2026-09-05",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Lead with temporal-memory correctness and a concrete evaluation artifact through the founder's professional profile."
+    },
+    {
+      "id": "contact_tianlin_zhao",
+      "name": "Tianlin Zhao",
+      "role": "Founding AI Engineer",
+      "priority": 2,
+      "linkedin": "https://www.linkedin.com/in/tianlin-zhao-74346b160",
+      "email": null,
+      "location": "Redwood City, California, United States",
+      "reason": "Founding AI engineer and the best technical peer for questions about memory architecture, evaluation, graph reasoning, and the engineering bar.",
+      "verification_source": "https://www.linkedin.com/in/tianlin-zhao-74346b160",
+      "verification_date": "2026-09-05",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Ask one specific architecture or evaluation question; do not duplicate the founder message."
+    },
+    {
+      "id": "contact_christopher_brady",
+      "name": "Christopher Brady",
+      "role": "Founding Software Engineer",
+      "priority": 3,
+      "linkedin": "https://www.linkedin.com/in/christopher-brady-82ab64128",
+      "email": null,
+      "location": null,
+      "reason": "Recently joined founding software engineer who can provide a peer view of Serro's product-development process and AI-native system-design interview.",
+      "verification_source": "https://www.linkedin.com/posts/jakejooyoung_some-new-energy-on-the-serro-team-this-week-activity-7458216605848600577-Nriy",
+      "verification_date": "2026-09-05",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Use only as a differentiated peer route after the founder; ask about the actual engineering workflow and interview expectations."
+    }
+  ],
+  "activity_log": [
+    {
+      "id": "event_20260905_created",
+      "timestamp": "2026-09-05T17:13:25Z",
+      "type": "created",
+      "actor": "codex",
+      "summary": "Serro was researched and added as an inferred AI, backend, and agent-infrastructure engineering opportunity with founder and founding-engineer contacts, hiring evidence, fit analysis, risks, outreach positioning, and a temporal program-memory evaluation artifact. No outreach or application has occurred.",
+      "from": null,
+      "to": "research-complete",
+      "contact_id": null,
+      "metadata": {
+        "source_request": "Evaluate Serro AI as an opportunity",
+        "public_vacancy_found": false
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Serro official website",
+      "url": "https://serro.ai/",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Serro LinkedIn company page",
+      "url": "https://www.linkedin.com/company/serroai",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Jake Kim LinkedIn profile",
+      "url": "https://www.linkedin.com/in/jakejooyoung",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Serro pre-seed announcement reported as $1M",
+      "url": "https://www.venturesquare.net/988527/",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Mashup Ventures post and Jake Kim's $1.2M funding note",
+      "url": "https://kr.linkedin.com/posts/mashupventures_%EB%A7%A4%EC%89%AC%EC%97%85%EB%B2%A4%EC%B2%98%EC%8A%A4-serro-byteams-activity-7366263207876808704-zInW",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Jake Kim on Serro's AI-native candidate coding challenge",
+      "url": "https://www.linkedin.com/posts/jakejooyoung_at-serro-we-have-a-unique-coding-challenge-activity-7447334799066800129-OtLq",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Jake Kim announces Christopher Brady joining as founding engineer",
+      "url": "https://www.linkedin.com/posts/jakejooyoung_some-new-energy-on-the-serro-team-this-week-activity-7458216605848600577-Nriy",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Tianlin Zhao LinkedIn profile",
+      "url": "https://www.linkedin.com/in/tianlin-zhao-74346b160",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Christopher Brady LinkedIn profile",
+      "url": "https://www.linkedin.com/in/christopher-brady-82ab64128",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Founder interview covering customers, pricing, product, and R&D tax wedge",
+      "url": "https://podcasts.apple.com/ca/podcast/dn-31-agentic-tpm-temporal-knowledge-graphs-the-job/id1873323961?i=1000785784036",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Founder account of Serro's pivot and co-founder departures",
+      "url": "https://www.linkedin.com/posts/jakejooyoung_i-spent-5-years-in-engineering-at-apple-activity-7437890212506062848-lEtQ",
+      "accessed_on": "2026-09-05"
+    }
+  ],
+  "created_at": "2026-09-05T17:13:25Z",
+  "updated_at": "2026-09-05T17:13:25Z"
+}
