@@ -63,10 +63,10 @@
     "stage": "research-complete",
     "outreach_status": "not-started",
     "application_status": "not-started",
-    "next_action": "Build or outline the renewable-operations agent reliability harness, apply through the published Tally form, then send a personalized LinkedIn message to CTO Kaan Durmaz. Use Joseph Perrotta, Nicolas Gutierrez de Esteban, and Pietro Valente as differentiated alternatives.",
+    "next_action": "Review the official careers page, build or outline the renewable-operations agent reliability harness, apply through the direct Tally form, then send a personalized LinkedIn message to CTO Kaan Durmaz. Use Joseph Perrotta, Nicolas Gutierrez de Esteban, and Pietro Valente as differentiated alternatives.",
     "next_action_due": null,
-    "notes": "The public hiring post lists Forward Deployed Engineer, Product Manager, Head of Sales, and open-ended candidates. Remote-from-India eligibility is not stated. Do not mark outreach or application as sent until Paarth explicitly confirms it.",
-    "last_updated": "2026-09-05T09:50:00Z"
+    "notes": "Official careers page: https://www.invertix.ai/careers. It invites candidates to see all open positions but does not expose individual role details in the crawl. The public hiring post lists Forward Deployed Engineer, Product Manager, Head of Sales, and open-ended candidates. The direct Tally application remains stored as the opportunity URL. Remote-from-India eligibility is not stated. Do not mark outreach or application as sent until Paarth explicitly confirms it.",
+    "last_updated": "2026-09-05T10:10:00Z"
   },
   "contacts": [
     {
@@ -147,12 +147,31 @@
       "metadata": {
         "source_request": "Evaluate Invertix and add it with all founder links and Nicolas Gutierrez de Esteban's LinkedIn profile"
       }
+    },
+    {
+      "id": "event_20260905_careers_added",
+      "timestamp": "2026-09-05T10:10:00Z",
+      "type": "research-updated",
+      "actor": "codex",
+      "summary": "Added Invertix's official careers page while preserving the direct Tally application link for the Forward Deployed Engineer role. No outreach or application status changed.",
+      "from": "research-complete",
+      "to": "research-complete",
+      "contact_id": null,
+      "metadata": {
+        "careers_url": "https://www.invertix.ai/careers",
+        "application_url": "https://tally.so/r/Y5o1Lz"
+      }
     }
   ],
   "sources": [
     {
       "title": "Invertix official website",
       "url": "https://www.invertix.ai/",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Invertix official careers page",
+      "url": "https://www.invertix.ai/careers",
       "accessed_on": "2026-09-05"
     },
     {
@@ -197,5 +216,5 @@
     }
   ],
   "created_at": "2026-09-05T09:50:00Z",
-  "updated_at": "2026-09-05T09:50:00Z"
+  "updated_at": "2026-09-05T10:10:00Z"
 }
