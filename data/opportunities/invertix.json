@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0.0",
+  "id": "opp_invertix",
+  "slug": "invertix",
+  "company": {
+    "name": "Invertix",
+    "website": "https://www.invertix.ai/",
+    "linkedin": "https://www.linkedin.com/company/invertix-ai",
+    "location": "Munich, Bavaria, Germany; San Francisco, California, United States",
+    "remote_india": "unknown",
+    "stage": "Pre-seed; founded 2025; early commercial deployment",
+    "team_size": "2-10 employees; LinkedIn shows 9 employees",
+    "funding": "€1.7M / approximately $2M pre-seed led by Vireo Ventures, with Italian Founders Fund and strategic angels"
+  },
+  "opportunity": {
+    "title": "Forward Deployed Engineer",
+    "role_status": "open",
+    "url": "https://tally.so/r/Y5o1Lz",
+    "employment_type": null
+  },
+  "evaluation": {
+    "verdict": "pursue-aggressively",
+    "company_score": 43,
+    "role_score": 44,
+    "base_score": 87,
+    "proof_advantage": 9,
+    "access_advantage": 4,
+    "outreach_priority": 100,
+    "evaluated_on": "2026-09-05",
+    "summary": "Invertix builds autonomous AI workers for renewable-energy companies that monitor plants, draft reports, reconcile revenue, track contracts, and triage alarms. The published Forward Deployed Engineer opening strongly matches Paarth's production-agent, backend, observability, data-pipeline, customer deployment, and distributed-systems experience. The company is a very small, recently funded team with Munich headquarters and a stated San Francisco presence. The main constraint is unverified remote eligibility from India.",
+    "hard_gate": "passed",
+    "strengths": [
+      "Published Forward Deployed Engineer opening plus explicit willingness to hear from candidates outside predefined roles",
+      "Direct alignment with production AI agents, workflow automation, evaluation, tracing, and reliability",
+      "Times Astro provides relevant experience operating conversational AI, comparing models, analyzing feedback, and tracing production behavior at scale",
+      "Renderperk proves ownership of distributed backend systems, queues, storage, payments, deployment, metrics, logs, and incident response",
+      "Energy operations require ingestion of noisy telemetry, alert triage, reporting, auditability, and human approval",
+      "The forward-deployed role values broad product and customer problem-solving rather than narrow model research",
+      "Tiny team and fresh pre-seed funding make direct founder outreach unusually valuable",
+      "Company lists both Munich and San Francisco, preserving a credible future SF connection"
+    ],
+    "gaps": [
+      "No direct renewable-energy, SCADA, inverter-telemetry, project-finance, or European energy-compliance experience",
+      "No confirmed experience embedded with enterprise customers under a Forward Deployed Engineer title",
+      "Remote work from India, employment structure, and visa or relocation support are not published",
+      "The role may require substantial on-site work in Munich or at European customer sites",
+      "German or Italian language expectations are unknown"
+    ],
+    "unknowns": [
+      "Whether the Forward Deployed Engineer role is still accepting applications through the Tally form",
+      "Whether a remote internship-to-full-time start from India is possible",
+      "Expected Munich or customer-site travel and working-hour overlap",
+      "Compensation, equity, employment type, and relocation or visa support",
+      "Exact production stack, agent framework, model providers, evaluation system, and data infrastructure",
+      "Current revenue, paying-customer count, runway, and how the stated 350+ MW is distributed across customers",
+      "Security model for agents operating inside customer data and critical-infrastructure workflows",
+      "Human approval, rollback, audit, and failure-recovery controls for autonomous actions"
+    ],
+    "outreach_angle": "Lead with production reliability for AI agents, not generic climate enthusiasm. Show how Paarth has operated agentic and distributed systems with tracing, evaluations, queues, retries, observability, payments, and large-scale analytics. Connect this to Invertix's need to ingest imperfect telemetry, suppress false alerts, explain decisions, preserve audit trails, and safely deploy workflows into customer environments. Ask Kaan about a remote internship-to-full-time or paid trial from India and offer a concrete reliability artifact.",
+    "proposed_artifact": "Build a small renewable-operations agent reliability harness using synthetic inverter telemetry, weather context, contracts, and alarms. The agent should normalize data, rank alerts by estimated revenue impact, draft an operator report, and open a maintenance recommendation only after policy checks. Add traces, evaluation cases for missing telemetry and false alarms, idempotent ticket creation, human approval, audit logs, retry handling, and rollback. Present latency, false-positive rate, tool-call accuracy, and recovery behavior."
+  },
+  "pipeline": {
+    "stage": "research-complete",
+    "outreach_status": "not-started",
+    "application_status": "not-started",
+    "next_action": "Build or outline the renewable-operations agent reliability harness, apply through the published Tally form, then send a personalized LinkedIn message to CTO Kaan Durmaz. Use Joseph Perrotta, Nicolas Gutierrez de Esteban, and Pietro Valente as differentiated alternatives.",
+    "next_action_due": null,
+    "notes": "The public hiring post lists Forward Deployed Engineer, Product Manager, Head of Sales, and open-ended candidates. Remote-from-India eligibility is not stated. Do not mark outreach or application as sent until Paarth explicitly confirms it.",
+    "last_updated": "2026-09-05T09:50:00Z"
+  },
+  "contacts": [
+    {
+      "id": "contact_kaan_durmaz",
+      "name": "Kaan Durmaz",
+      "role": "Co-Founder and CTO",
+      "priority": 1,
+      "linkedin": "https://www.linkedin.com/in/kdurmaz",
+      "email": null,
+      "location": "Munich, Bavaria, Germany",
+      "reason": "Technical co-founder and primary decision-maker for a Forward Deployed Engineer or AI/backend engineering conversation.",
+      "verification_source": "https://www.invertix.ai/",
+      "verification_date": "2026-09-05",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Personalize around agent reliability, telemetry quality, evaluations, observability, and safe customer deployments."
+    },
+    {
+      "id": "contact_joseph_perrotta",
+      "name": "Joseph Perrotta",
+      "role": "Co-Founder and CEO",
+      "priority": 2,
+      "linkedin": "https://www.linkedin.com/in/joseph-perrottaa",
+      "email": null,
+      "location": "Munich, Bavaria, Germany",
+      "reason": "Co-founder and CEO who publicly amplified the active hiring campaign; appropriate second contact for role flexibility and India-to-Munich or SF logistics.",
+      "verification_source": "https://www.linkedin.com/posts/invertix_hiring-ai-energytransition-activity-7455299702146654208-mUc2",
+      "verification_date": "2026-09-05",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Focus on customer impact, broad ownership, and internship-to-full-time structure rather than duplicating the CTO message."
+    },
+    {
+      "id": "contact_nicolas_gutierrez_de_esteban",
+      "name": "Nicolas Gutierrez de Esteban",
+      "role": "Founding Ops and GTM",
+      "priority": 3,
+      "linkedin": "https://www.linkedin.com/in/nicolasgutierrezdeesteban/",
+      "email": null,
+      "location": "Munich, Bavaria, Germany",
+      "reason": "Founding operations and go-to-market team member who can assess customer-facing fit and may provide an internal route into the Forward Deployed Engineer process.",
+      "verification_source": "https://www.linkedin.com/in/nicolasgutierrezdeesteban/",
+      "verification_date": "2026-09-05",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Profile was supplied by Paarth and the publicly indexed role is Founding Ops & GTM at Invertix. Tailor outreach to connecting customer pain with reliable technical deployment."
+    },
+    {
+      "id": "contact_pietro_valente",
+      "name": "Pietro Valente",
+      "role": "Founding Engineer",
+      "priority": 4,
+      "linkedin": "https://www.linkedin.com/in/pietrovalente",
+      "email": null,
+      "location": "Munich, Bavaria, Germany",
+      "reason": "Founding engineer working across the company and a useful technical peer for understanding the stack, engineering bar, and daily responsibilities.",
+      "verification_source": "https://www.linkedin.com/company/invertix-ai",
+      "verification_date": "2026-09-05",
+      "outreach_status": "not-contacted",
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "notes": "Use as a technical peer route after founder outreach; ask focused questions rather than sending a generic job request."
+    }
+  ],
+  "activity_log": [
+    {
+      "id": "event_20260905_created",
+      "timestamp": "2026-09-05T09:50:00Z",
+      "type": "created",
+      "actor": "codex",
+      "summary": "Invertix was researched and added as a published Forward Deployed Engineer opportunity with all identified founders, the user-supplied Nicolas Gutierrez de Esteban profile, a founding-engineer contact, exact application link, fit analysis, risks, outreach positioning, and a proposed technical artifact. No outreach or application has occurred.",
+      "from": null,
+      "to": "research-complete",
+      "contact_id": null,
+      "metadata": {
+        "source_request": "Evaluate Invertix and add it with all founder links and Nicolas Gutierrez de Esteban's LinkedIn profile"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Invertix official website",
+      "url": "https://www.invertix.ai/",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Invertix LinkedIn company page",
+      "url": "https://www.linkedin.com/company/invertix-ai",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Invertix public hiring post and application",
+      "url": "https://www.linkedin.com/posts/invertix_hiring-ai-energytransition-activity-7455299702146654208-mUc2",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Invertix Tally application form",
+      "url": "https://tally.so/r/Y5o1Lz",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Invertix €1.7M pre-seed funding announcement",
+      "url": "https://www.startupbusiness.it/en/invertix-secures-e1-7-million-in-pre-seed-funding/169704/",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Kaan Durmaz LinkedIn profile",
+      "url": "https://www.linkedin.com/in/kdurmaz",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Joseph Perrotta LinkedIn profile",
+      "url": "https://www.linkedin.com/in/joseph-perrottaa",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Nicolas Gutierrez de Esteban LinkedIn profile",
+      "url": "https://www.linkedin.com/in/nicolasgutierrezdeesteban/",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "title": "Pietro Valente LinkedIn profile",
+      "url": "https://www.linkedin.com/in/pietrovalente",
+      "accessed_on": "2026-09-05"
+    }
+  ],
+  "created_at": "2026-09-05T09:50:00Z",
+  "updated_at": "2026-09-05T09:50:00Z"
+}
